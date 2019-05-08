@@ -47,7 +47,7 @@ server <- function(input, output) {
             geom_histogram(bins=21, position="dodge", alpha = .6) +
             labs(title = "INT total score for selected subjects by sex",
                  x = element_blank(), y = "%") +
-            ylim(0,25) + 
+            #ylim(0,25) + 
             theme_bw()        
          })
     
@@ -63,7 +63,7 @@ server <- function(input, output) {
             geom_histogram(bins=21, position="dodge", alpha = .6) +
             labs(title = "INT total score for selected subjects by sex",
                  x = element_blank(), y = "%") +
-            ylim(0,25) + 
+            #ylim(0,25) + 
             theme_bw()        
     })
     
@@ -80,7 +80,7 @@ server <- function(input, output) {
             geom_histogram(bins=21, position="dodge", alpha = .6) +
             labs(title = "INT total score for selected subjects by sex",
                  x = element_blank(), y = "%") +
-            ylim(0,25) + 
+            #ylim(0,25) + 
             theme_bw()        
     })
     
@@ -96,7 +96,7 @@ server <- function(input, output) {
             geom_histogram(bins=21, position="dodge", alpha = .6) +
             labs(title = "INT total score for selected subjects by sex",
                  x = element_blank(), y = "%") +
-            ylim(0,25) + 
+            #ylim(0,25) + 
             theme_bw()        
     })
     
